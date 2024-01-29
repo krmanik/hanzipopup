@@ -1,0 +1,30 @@
+{
+  "name": "hanzipopup",
+  "version": "0.0.1",
+  "description": "A port of Zhongwen Chinese-English Pop-Up Dictionary as UserScript for Safari",
+  "main": "hanzipopup.user.js",
+  "directories": {
+    "dist": "dist"
+  },
+  "scripts": {
+    "copy": "gulp bundleJs copyTtsFile copyReadme",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krmanik/hanzipopup.git"
+  },
+  "author": "krmanik",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/krmanik/hanzipopup/issues"
+  },
+  "homepage": "https://github.com/krmanik/hanzipopup#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1"
+  },
+  "dependencies": {
+    "gulp-rename": "^2.0.0"
+  }
+}

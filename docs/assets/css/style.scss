@@ -1,0 +1,21 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+@media screen and (max-width: 42em) {
+    .btn {
+        display: inline-block !important;
+        width: unset !important;
+    }
+
+    .btn+.btn {
+        margin-top: unset !important;
+    }
+}
+
+@media screen and (max-width: 42em) {
+    .page-header {
+        padding: 2rem 1rem !important;
+    }
+}
